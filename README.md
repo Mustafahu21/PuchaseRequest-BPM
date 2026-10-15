@@ -15,39 +15,6 @@ A fully automated **Purchase Request (PR) approval workflow** built with **IBM B
 ---
 ## Overview
 This project solves a common business challenge: **streamlining the purchase request lifecycle** from employee submission through multi-level management approval, budget validation, procurement, and final order placement.
-The solution is split into two IBM BAW artifacts following best practices:
-|
- Artifact 
-|
- Type 
-|
- Purpose 
-|
-|
----
-|
----
-|
----
-|
-|
-**
-HDMYA
-**
-|
- Process App 
-|
- Contains the main BPD (Business Process Diagram) and orchestrates the end-to-end workflow 
-|
-|
-**
-OfficeSuppliers
-**
-|
- Toolkit 
-|
- Houses all reusable assets — data types, services, coach views, and EPVs — consumed by the process app 
-|
 ---
 ## Process Flow
 The purchase request follows a **5-lane approval workflow** with conditional routing and save-for-later capability at every step:
@@ -72,22 +39,6 @@ The purchase request follows a **5-lane approval workflow** with conditional rou
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 ### Step-by-Step Breakdown
-|
-#
-|
- Step 
-|
- Lane 
-|
- Description 
-|
-|
----
-|
----
-|
----
-|
 ---
 |
 |
@@ -300,9 +251,6 @@ Dropdown options and action labels are configured via EPVs, allowing administrat
 |
  Values 
 |
-|
----
-|
 ---
 |
 |
@@ -356,11 +304,6 @@ EPVs allow runtime configuration without redeployment:
 |
  Sample Values 
 |
-|
----
-|
----
-|
 ---
 |
 |
@@ -404,9 +347,6 @@ EPVs allow runtime configuration without redeployment:
  Technology 
 |
  Usage 
-|
-|
----
 |
 ---
 |
@@ -460,15 +400,6 @@ Undercover Agents
  Event/schedule-driven automation 
 |
 ---
-## Screenshots
-> *Screenshots of the process designer, coach views, and runtime execution can be added here.*
-<!-- 
-Add screenshots by placing image files in a /screenshots folder and referencing them:
-![Process Designer](screenshots/process-designer.png)
-![Employee Form](screenshots/employee-form.png)
-![Manager Approval](screenshots/manager-approval.png)
--->
----
 ## How to Import
 ### Prerequisites
 - IBM BAW v8.6.3 or later (or IBM BPM v8.6+)
@@ -487,5 +418,5 @@ Add screenshots by placing image files in a /screenshots folder and referencing 
    - Start a new instance from Process Portal
 ---
 ## 👤 Author
-Developed by **[Your Name]** — NTI ECM & BPM Intern (2026)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/your-profile)
+Developed by **Mustafa Hussien** — NTI ECM & BPM Intern (2026)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](www.linkedin.com/in/mustafa-hussien-a696a327a)
