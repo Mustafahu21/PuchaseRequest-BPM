@@ -419,4 +419,4 @@ Undercover Agents
 ---
 ## 👤 Author
 Developed by **Mustafa Hussien** — NTI ECM & BPM Intern (2026)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](www.linkedin.com/in/mustafa-hussien-a696a327a)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/mustafa-hussien-a696a327a)
